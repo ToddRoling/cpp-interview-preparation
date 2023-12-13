@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicInputOutput", "BasicIn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoubleInput", "DoubleInput\DoubleInput.vcxproj", "{CE892943-7ECC-4EA1-9FC3-D93CF60050F7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SubtractInputs", "SubtractInputs\SubtractInputs.vcxproj", "{4E29B859-2683-43D2-9EF8-E359BACCF116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -47,6 +49,14 @@ Global
 		{CE892943-7ECC-4EA1-9FC3-D93CF60050F7}.Release|x64.Build.0 = Release|x64
 		{CE892943-7ECC-4EA1-9FC3-D93CF60050F7}.Release|x86.ActiveCfg = Release|Win32
 		{CE892943-7ECC-4EA1-9FC3-D93CF60050F7}.Release|x86.Build.0 = Release|Win32
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Debug|x64.ActiveCfg = Debug|x64
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Debug|x64.Build.0 = Debug|x64
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Debug|x86.Build.0 = Debug|Win32
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Release|x64.ActiveCfg = Release|x64
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Release|x64.Build.0 = Release|x64
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Release|x86.ActiveCfg = Release|Win32
+		{4E29B859-2683-43D2-9EF8-E359BACCF116}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
