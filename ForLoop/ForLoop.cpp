@@ -1,10 +1,8 @@
-// https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem?isFullScreen=true
+// https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem?isFullScreen=true
 
 #include <iostream>
 
-int main() {
-	int n{ 0 };
-	std::cin >> n;
+static void PrintValue(int n) {
 	if (n > 0) {
 		if (n == 1)
 			std::cout << "one";
@@ -25,6 +23,16 @@ int main() {
 		else if (n == 9)
 			std::cout << "nine";
 		else
-			std::cout << "Greater than 9";
+			std::cout << ((n % 2 == 0) ? "even" : "odd");
+		std::cout << '\n';
+	}
+}
+
+int main() {
+	int a{ 0 };
+	int b{ 0 };
+	std::cin >> a >> b;
+	for (int i = a; i <= b; ++i) {
+		PrintValue(i);
 	}
 }
