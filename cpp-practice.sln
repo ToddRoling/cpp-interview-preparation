@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SizeOfExamples", "SizeOfExa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArithmeticOverflow", "ArithmeticOverflow\ArithmeticOverflow.vcxproj", "{151F7499-8CB4-41D3-B89B-658C7CF8F521}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{B51EA0AA-C631-4883-9C74-2C123A857D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{151F7499-8CB4-41D3-B89B-658C7CF8F521}.Release|x64.Build.0 = Release|x64
 		{151F7499-8CB4-41D3-B89B-658C7CF8F521}.Release|x86.ActiveCfg = Release|Win32
 		{151F7499-8CB4-41D3-B89B-658C7CF8F521}.Release|x86.Build.0 = Release|Win32
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Debug|x64.ActiveCfg = Debug|x64
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Debug|x64.Build.0 = Debug|x64
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Debug|x86.Build.0 = Debug|Win32
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Release|x64.ActiveCfg = Release|x64
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Release|x64.Build.0 = Release|x64
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Release|x86.ActiveCfg = Release|Win32
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +168,7 @@ Global
 		{892050CE-14B6-4DDA-B2C3-9441278BAAAE} = {FFA43628-1B6C-4250-A97F-1409DED292F9}
 		{64B33C8B-3374-410F-AFF0-FA15F0FAC017} = {FFA43628-1B6C-4250-A97F-1409DED292F9}
 		{151F7499-8CB4-41D3-B89B-658C7CF8F521} = {FFA43628-1B6C-4250-A97F-1409DED292F9}
+		{B51EA0AA-C631-4883-9C74-2C123A857D3B} = {44105CAE-885C-479F-978E-5B10258119E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85195069-D6BC-4854-A42D-783723290DB4}
