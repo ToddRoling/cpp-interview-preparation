@@ -11,10 +11,10 @@ void update(int* a, int* b) {
 int main() {
 	int a{ 0 };
 	int b{ 0 };
-	int* pa = &a;
-	int* pb = &b;
+	int* ptr_a = &a;
+	int* ptr_b = &b;
 	std::cin >> a >> b;
-	update(pa, pb);
+	update(ptr_a, ptr_b);
 	std::cout << a << '\n';
 	std::cout << b;
 	return 0;
