@@ -1,7 +1,7 @@
 #include "IO.h"
 #include <iostream>
 
-int ReadNumber() {
+int ReadIntegerInput() {
 	int number{};
 	while (std::cout << "Enter number to add: " && !(std::cin >> number)) {
 		std::cin.clear();

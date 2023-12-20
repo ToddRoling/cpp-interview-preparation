@@ -1,4 +1,4 @@
 #pragma once
 
-int ReadNumber();
+int ReadIntegerInput();
 void WriteAnswer(int answer);
