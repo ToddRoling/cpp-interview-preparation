@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer", "Pointer\Pointer.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointerSandbox", "PointerSandbox\PointerSandbox.vcxproj", "{6D3DF77E-50AF-40AB-AB45-AE90A6DACA55}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoundingErrors", "RoundingErrors\RoundingErrors.vcxproj", "{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{6D3DF77E-50AF-40AB-AB45-AE90A6DACA55}.Release|x64.Build.0 = Release|x64
 		{6D3DF77E-50AF-40AB-AB45-AE90A6DACA55}.Release|x86.ActiveCfg = Release|Win32
 		{6D3DF77E-50AF-40AB-AB45-AE90A6DACA55}.Release|x86.Build.0 = Release|Win32
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Debug|x64.ActiveCfg = Debug|x64
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Debug|x64.Build.0 = Debug|x64
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Debug|x86.Build.0 = Debug|Win32
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Release|x64.ActiveCfg = Release|x64
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Release|x64.Build.0 = Release|x64
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Release|x86.ActiveCfg = Release|Win32
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +201,7 @@ Global
 		{B51EA0AA-C631-4883-9C74-2C123A857D3B} = {44105CAE-885C-479F-978E-5B10258119E5}
 		{27CCB8B9-D309-4BC4-83C2-8DA62C51F339} = {44105CAE-885C-479F-978E-5B10258119E5}
 		{6D3DF77E-50AF-40AB-AB45-AE90A6DACA55} = {FFA43628-1B6C-4250-A97F-1409DED292F9}
+		{BC92CAC9-D211-4F31-B8BA-FB71EE30FEC6} = {FFA43628-1B6C-4250-A97F-1409DED292F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85195069-D6BC-4854-A42D-783723290DB4}
